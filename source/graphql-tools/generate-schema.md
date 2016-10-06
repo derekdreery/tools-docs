@@ -111,7 +111,7 @@ const Author = `
   }
 `;
 
-// we export have to export Author and all types it depends on in order to make it reusable
+// we have to export Author and all types it depends on in order to make it reusable
 export default () => [Author, Book];
 ```
 
